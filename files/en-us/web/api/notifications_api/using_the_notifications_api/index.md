@@ -196,7 +196,7 @@ window.addEventListener('load', function () {
     // Ensure that if our document is in a frame, we get the user
     // to first open it in its own tab or window. Otherwise, it
     // won’t be able to request permission to send notifications.
-    button.textContent = "Open this frame in its own tab/window";
+    button.textContent = "View the live result of the example code above";
     button.addEventListener('click', function () {
       window.open(location.href);
     });
@@ -251,8 +251,6 @@ window.addEventListener('load', function () {
   });
 });
 ```
-
-See the live result below:
 
 {{ EmbedLiveSample('Tag_example', '100%', 30) }}
 
